@@ -1,0 +1,87 @@
+import streamlit as st 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+st.title("les diagrammes de dispersion")
+st.subheader("Auteur: M. AFFODEGON Darryl")
+st.write("c'est un Diagramme de dispersion du poids en fonction du temps.""C'est un bon ")
+Nom = st.text_input(label="Nom:")
+plt.text(0.05, 0.95, f'Nom & Prénom: {Nom}', transform=plt.gca().transAxes, verticalalignment='top'  )
+Prenoms = st.text_input(label=" Prénom:")
+plt.text(0.05, 0.95, f'Nom & Prénom: {Prenoms}', transform=plt.gca().transAxes, verticalalignment='top'  )
+
+a = st.pills("Sélectionnez votre série:",["D","C","B","A"], selection_mode="single")
+plt.text(0.05, 0.85, f"Vous avez sélectionné la série: {a}", transform=plt.gca().transAxes, verticalalignment='top'     )
+b = st.multiselect("Sélectionnez votre série:",["D","C","B","A"])
+plt.text(0.05, 0.75, f"Vous avez sélectionné la série: {b}", transform=plt.gca().transAxes, verticalalignment='top'     )
+
+
+z = st.radio("Sélectionnez votre série:",["D","C","B","A"])
+plt.text(0.05, 0.65, f"Vous avez sélectionné la série: {z}", transform=plt.gca().transAxes, verticalalignment='top'     ) 
+re = st.text("Matières et coefficients de la série de l'apprenant:")
+plt.title(f"Vous avez sélectionné la série: {re}", transform=plt.gca().transAxes, verticalalignment='top'     )  
+if z == "D":
+    p = st.container(border=True)
+    p.write("Maths coeff 4")
+    p.write("PCT coeff 4")
+    p.write("Anglais coeff 2")
+    p.write("Français coeff 2")
+elif z == "C":
+    p = st.container(border=True)
+    p.write("Maths coeff 6")
+    p.write("PCT coeff 5")
+    p.write("Anglais coeff 2")
+    p.write("Français coeff 2")
+elif z == "B":
+    p = st.container(border=True)
+    p.write("Maths coeff 2")
+    p.write("PCT coeff 1")
+    p.write("Anglais coeff 3")
+    p.write("Français coeff 3")
+elif z == "A":
+    p = st.container(border=True)
+    p.write("Maths coeff 2")
+    p.write("PCT coeff 1")
+    p.write("Anglais coeff 3")
+    p.write("Français coeff 2") 
+    
+k = st.number_input(label="Votre note de PCT:", min_value=0.0, max_value=100.0, value=17.0, step=0.25)
+s = st.number_input(label="Votre note d'Anglais:", min_value=0.0, max_value=20.0, value=12.0, step=0.25) 
+o = st.number_input(label="Votre note de Français:", min_value=0.0, max_value=20.0, value=17.0, step=0.25)
+i = st.number_input(label="Votre note de Maths:", min_value=0.0, max_value=20.0, value=12.0, step=0.25   ) 
+
+if z == "D":
+    moyenne = (k*4 + s*2 + o*2 + i*4) / (4+2+2+4) 
+
+elif z == "C":
+    moyenne = (k*5 + s*2 + o*2 + i*6) / (5+2+2+6)
+    
+elif z == "B":  
+    moyenne = (k*1 + s*3 + o*3 + i*2) / (1+3+3+2)
+    
+elif z == "A":
+ moyenne = (k*1 + s*3 + o*2 + i*2) / (1+3+2+2)
+ 
+if st.button("Calculer la moyenne"):
+ st.write(f"Votre moyenne est: {moyenne}")
+ if moyenne >= 10:
+     st.write("Félicitations! Vous avez réussi.")
+     st.write("Vous pouvez passer à la classe supérieure.")
+     st.write("Voici les choix de filière qui s'offrent à vous.")
+     
+
+ else:
+     st.write("Désolé! Vous n'avez pas réussi.")
+     st.write(" Du courage! Vous pouvez toujours vous améliorer.")
+if moyenne >= 10:       
+ if st.button("Voir les choix de filière"):
+      
+         st.write("Voici les choix de filière qui s'offrent à vous.")
+         st.write("1. Filière scientifique")
+         st.write("2. Filière technique")
+         st.write("3. Filière littéraire")
+         st.write("4. Filière économique et sociale")
+         st.write("5. Filière professionnelle")
+     
+     

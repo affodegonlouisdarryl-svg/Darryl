@@ -1,0 +1,20 @@
+import streamlit as st 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+
+temps=[20, 25, 30, 35, 40]
+poids=[60, 65, 70, 75, 80]
+fig, ax = plt.subplots()
+Valeurs = st.number_input("Entrez une valeur pour le poids:", min_value=0, max_value=100, value=70) 
+ax.plot(temps, poids, marker='o', color="yellow")
+ax.set_xlabel('Temp (h)')
+ax.set_ylabel('Poids (kg)')
+ax.set_title('Temp en fonction du Poids')
+x = np.linspace(20, 40, 100)
+y = 2 + 9.5 * x
+ax.plot(x, y, color='red',ls='--', label='y = 2 + 9.5 * x', Valeur=Valeurs )
+ax.grid()
+st.pyplot(fig) 
