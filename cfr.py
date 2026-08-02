@@ -74,14 +74,39 @@ if st.button("Calculer la moyenne"):
  else:
      st.write("Désolé! Vous n'est pas admis.")
      st.write(" Du courage! Vous pouvez toujours vous améliorez.")
-if moyenne >= 10:       
- if st.button("Voir les choix de filière"):
-      
-         st.write("Voici les choix de filière qui s'offrent à vous.")
-         st.write("1. Filière scientifique")
-         st.write("2. Filière technique")
-         st.write("3. Filière littéraire")
-         st.write("4. Filière économique et sociale")
-         st.write("5. Filière professionnelle")
+if moyenne >= 10 and z == "A":
+  if st.button("Voir les choix de filière"):
+      st.write("Voici les choix de filière qui s'offrent à vous.")
+      st.write("Droit")
+      st.write("Lettres")
+      st.write("Philosophies")
+      st.write(" Economique et sociale")
+      st.write(" Langes et histoire ")     
+elif moyenne >= 10 and z == "D":
+  if st.button("Voir les choix de filière"):
+      st.write("Voici les choix de filière qui s'offrent à vous.")
+      st.write("Sciences de la vie et de la terre")
+      st.write("Pharmacie")
+      st.write("Sciences de l'environnement")
+      st.write("Sciences de la santé")
+      st.write("Agronomie")
+      st.write("Biologie")
+elif moyenne >= 10 and z == "C":
+        if st.button("Voir les choix de filière"):
+            st.write("Voici les choix de filière qui s'offrent à vous.")
+            st.write("Sciences de l'ingénieur")
+            st.write("Informatique")
+            st.write("Mathématiques")
+            st.write("Physique")
+            st.write("Chimie")  
+elif moyenne >= 10 and z == "B":
+        if st.button("Voir les choix de filière"):
+                    st.write("Voici les choix de filière qui s'offrent à vous.")
+                    st.write("Commerce")
+                    st.write("Droit")
+                    st.write("Gestion")
+                    st.write("Economie")
+                    st.write("Comptabilité") 
+ 
      
      

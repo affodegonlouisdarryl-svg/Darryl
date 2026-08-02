@@ -1,0 +1,199 @@
+2026-07-31 12:38:12.117 [info] [main] Log level: Info
+2026-07-31 12:38:12.117 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2026-07-31 12:38:12.190 [info] [askpassManager] Creating content-addressed askpass scripts at c:\Users\affod\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7
+2026-07-31 12:38:12.432 [info] [askpassManager] Successfully created content-addressed askpass scripts
+2026-07-31 12:38:12.491 [info] [main] Using git "2.55.0.windows.3" from "C:\Program Files\Git\cmd\git.exe"
+2026-07-31 12:38:12.491 [info] [Model][doInitialScan] Initial repository scan started
+2026-07-31 12:38:12.631 [info] > git rev-parse --show-toplevel [109ms]
+2026-07-31 12:38:12.631 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 12:38:12.729 [info] > git rev-parse --show-toplevel [82ms]
+2026-07-31 12:38:12.729 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 12:38:12.731 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-07-31 12:38:16.656 [info] > git rev-parse --show-toplevel [117ms]
+2026-07-31 12:38:16.656 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 12:38:21.775 [info] > git rev-parse --show-toplevel [97ms]
+2026-07-31 12:38:21.775 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 12:38:21.790 [info] > git rev-parse --show-toplevel [91ms]
+2026-07-31 12:38:21.790 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 12:41:53.747 [info] > git rev-parse --show-toplevel [110ms]
+2026-07-31 12:41:53.747 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 12:45:19.948 [info] > git rev-parse --show-toplevel [121ms]
+2026-07-31 12:45:19.948 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 12:45:41.300 [info] > git rev-parse --show-toplevel [93ms]
+2026-07-31 12:45:41.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-07-31 12:48:34.046 [info] > git init -b main [157ms]
+2026-07-31 12:48:34.166 [info] > git rev-parse --show-toplevel [107ms]
+2026-07-31 12:48:34.331 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [151ms]
+2026-07-31 12:48:34.355 [info] [Model][openRepository] Opened repository (path): e:\Nouveau dossier (2)
+2026-07-31 12:48:34.355 [info] [Model][openRepository] Opened repository (real path): e:\Nouveau dossier (2)
+2026-07-31 12:48:34.355 [info] [Model][openRepository] Opened repository (kind): repository
+2026-07-31 12:48:34.484 [info] [Git][getRemotes] No remotes found in the git config file
+2026-07-31 12:48:34.521 [info] > git config --get --local core.virtualfilesystem [150ms]
+2026-07-31 12:48:34.522 [warning] [Git][config] git config failed: Failed to execute git
+2026-07-31 12:48:34.549 [info] > git config --get commit.template [130ms]
+2026-07-31 12:48:34.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [129ms]
+2026-07-31 12:48:34.613 [warning] [Git][getBranch] No such branch: main
+2026-07-31 12:48:34.663 [info] > git add -A -- . [267ms]
+2026-07-31 12:48:34.765 [info] > git status -z -uall [134ms]
+2026-07-31 12:48:34.778 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [124ms]
+2026-07-31 12:48:34.906 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty-message [219ms]
+2026-07-31 12:48:34.907 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-07-31 12:48:34.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [144ms]
+2026-07-31 12:48:34.951 [warning] [Git][getBranch] No such branch: main
+2026-07-31 12:48:34.952 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2026-07-31 12:48:34.954 [info] [Git][getRemotes] No remotes found in the git config file
+2026-07-31 12:48:35.004 [info] > git config --get commit.template [141ms]
+2026-07-31 12:48:35.051 [info] > git check-ignore -v -z --stdin [149ms]
+2026-07-31 12:48:35.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [254ms]
+2026-07-31 12:48:35.243 [warning] [Git][getBranch] No such branch: main
+2026-07-31 12:48:35.295 [info] > git config --get-all user.name [358ms]
+2026-07-31 12:48:35.296 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] (cancelled)
+2026-07-31 12:48:35.318 [info] > git show --textconv :rez.py [235ms]
+2026-07-31 12:48:35.318 [info] > git show --textconv HEAD:rez.py [154ms]
+2026-07-31 12:48:35.339 [info] > git status -z -uall [72ms] (cancelled)
+2026-07-31 12:48:35.364 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [325ms]
+2026-07-31 12:48:35.364 [info] fatal: bad revision 'refs/heads/main'
+2026-07-31 12:48:35.365 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2026-07-31 12:48:35.368 [info] > git ls-tree -l HEAD -- rez.py [127ms]
+2026-07-31 12:48:35.368 [info] fatal: Not a valid object name HEAD
+2026-07-31 12:48:35.396 [info] > git ls-files --stage -- rez.py [193ms]
+2026-07-31 12:48:35.466 [info] [Git][getRemotes] No remotes found in the git config file
+2026-07-31 12:48:35.467 [info] > git config --get commit.template [128ms]
+2026-07-31 12:48:35.528 [info] > git hash-object -t tree /dev/null [164ms]
+2026-07-31 12:48:35.528 [warning] [GitFileSystemProvider][readFile] File not found - git:/e%3A/Nouveau%20dossier%20%282%29/rez.py.git?%7B%22path%22%3A%22e%3A%5C%5CNouveau%20dossier%20%282%29%5C%5Crez.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-07-31 12:48:35.538 [info] > git hash-object -t tree /dev/null [141ms]
+2026-07-31 12:48:35.538 [warning] [GitFileSystemProvider][stat] File not found - git:/e%3A/Nouveau%20dossier%20%282%29/rez.py.git?%7B%22path%22%3A%22e%3A%5C%5CNouveau%20dossier%20%282%29%5C%5Crez.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-07-31 12:48:35.565 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [140ms]
+2026-07-31 12:48:35.609 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [143ms]
+2026-07-31 12:48:35.609 [warning] [Git][getBranch] No such branch: main
+2026-07-31 12:48:35.665 [info] > git check-ignore -v -z --stdin [139ms]
+2026-07-31 12:48:35.720 [info] > git check-ignore -v -z --stdin [114ms]
+2026-07-31 12:48:35.740 [info] > git status -z -uall [107ms]
+2026-07-31 12:48:35.763 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [107ms]
+2026-07-31 12:48:36.206 [info] > git check-ignore -v -z --stdin [103ms]
+2026-07-31 12:48:36.227 [info] > git ls-files --stage -- rez.py [101ms]
+2026-07-31 12:48:36.348 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [104ms]
+2026-07-31 12:48:36.457 [info] > git show --textconv :rez.py [94ms]
+2026-07-31 12:49:10.082 [info] > git show --textconv :rez.py [103ms]
+2026-07-31 12:49:10.100 [info] > git ls-files --stage -- rez.py [96ms]
+2026-07-31 12:49:10.199 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [86ms]
+2026-07-31 12:49:10.624 [info] > git check-ignore -v -z --stdin [92ms]
+2026-07-31 12:49:18.498 [info] > git check-ignore -v -z --stdin [90ms]
+2026-07-31 12:49:18.635 [info] > git show --textconv :rez.py [118ms]
+2026-07-31 12:49:18.643 [info] > git show --textconv HEAD:rez.py [104ms]
+2026-07-31 12:49:18.644 [warning] [GitFileSystemProvider][readFile] File not found - git:/e%3A/Nouveau%20dossier%20%282%29/rez.py.git?%7B%22path%22%3A%22e%3A%5C%5CNouveau%20dossier%20%282%29%5C%5Crez.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-07-31 12:49:18.685 [info] > git ls-files --stage -- rez.py [124ms]
+2026-07-31 12:49:18.700 [info] > git ls-tree -l HEAD -- rez.py [106ms]
+2026-07-31 12:49:18.700 [info] fatal: Not a valid object name HEAD
+2026-07-31 12:49:18.701 [warning] [GitFileSystemProvider][stat] File not found - git:/e%3A/Nouveau%20dossier%20%282%29/rez.py.git?%7B%22path%22%3A%22e%3A%5C%5CNouveau%20dossier%20%282%29%5C%5Crez.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-07-31 12:49:18.795 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [96ms]
+2026-07-31 12:49:27.716 [info] > git -c user.useConfigOnly=true commit --quiet [97ms]
+2026-07-31 12:49:27.716 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-07-31 12:49:27.822 [info] > git config --get-all user.name [91ms]
+2026-07-31 12:49:27.856 [info] [Git][getRemotes] No remotes found in the git config file
+2026-07-31 12:49:27.932 [info] > git config --get commit.template [96ms]
+2026-07-31 12:49:27.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [96ms]
+2026-07-31 12:49:27.951 [warning] [Git][getBranch] No such branch: main
+2026-07-31 12:49:28.076 [info] > git status -z -uall [110ms]
+2026-07-31 12:49:28.087 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [99ms]
+2026-07-31 12:49:28.532 [info] > git check-ignore -v -z --stdin [94ms]
+2026-07-31 12:49:53.417 [info] > git -c user.useConfigOnly=true commit --quiet [115ms]
+2026-07-31 12:49:53.418 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-07-31 12:49:53.525 [info] > git config --get-all user.name [92ms]
+2026-07-31 12:49:53.544 [info] [Git][getRemotes] No remotes found in the git config file
+2026-07-31 12:49:53.640 [info] > git config --get commit.template [99ms]
+2026-07-31 12:49:53.663 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [98ms]
+2026-07-31 12:49:53.664 [warning] [Git][getBranch] No such branch: main
+2026-07-31 12:49:53.780 [info] > git status -z -uall [102ms]
+2026-07-31 12:49:53.799 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [98ms]
+2026-07-31 12:49:54.237 [info] > git check-ignore -v -z --stdin [91ms]
+2026-07-31 12:58:14.533 [info] > git check-ignore -v -z --stdin [95ms]
+2026-07-31 12:58:14.658 [info] > git ls-files --stage -- rez.py [94ms]
+2026-07-31 12:58:14.774 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [100ms]
+2026-07-31 12:58:14.895 [info] > git show --textconv :rez.py [105ms]
+2026-07-31 13:12:41.255 [info] > git check-ignore -v -z --stdin [87ms]
+2026-07-31 13:12:41.391 [info] > git show --textconv :rez.py [115ms]
+2026-07-31 13:12:41.410 [info] > git show --textconv HEAD:rez.py [109ms]
+2026-07-31 13:12:41.412 [warning] [GitFileSystemProvider][readFile] File not found - git:/e%3A/Nouveau%20dossier%20%282%29/rez.py.git?%7B%22path%22%3A%22e%3A%5C%5CNouveau%20dossier%20%282%29%5C%5Crez.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-07-31 13:12:41.433 [info] > git ls-files --stage -- rez.py [111ms]
+2026-07-31 13:12:41.452 [info] > git ls-tree -l HEAD -- rez.py [99ms]
+2026-07-31 13:12:41.452 [info] fatal: Not a valid object name HEAD
+2026-07-31 13:12:41.453 [warning] [GitFileSystemProvider][stat] File not found - git:/e%3A/Nouveau%20dossier%20%282%29/rez.py.git?%7B%22path%22%3A%22e%3A%5C%5CNouveau%20dossier%20%282%29%5C%5Crez.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-07-31 13:12:41.535 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [89ms]
+2026-07-31 13:16:41.514 [info] > git check-ignore -v -z --stdin [92ms]
+2026-07-31 13:19:00.221 [info] > git ls-files --stage -- rez.py [113ms]
+2026-07-31 13:19:00.400 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [165ms]
+2026-07-31 13:20:32.737 [info] > git ls-files --stage -- rez.py [91ms]
+2026-07-31 13:20:32.840 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [89ms]
+2026-07-31 13:20:32.969 [info] > git ls-files --stage -- rez.py [92ms]
+2026-07-31 13:20:33.068 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [86ms]
+2026-07-31 13:20:33.169 [info] > git ls-files --stage -- rez.py [85ms]
+2026-07-31 13:20:33.272 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [92ms]
+2026-07-31 13:20:38.793 [info] > git ls-files --stage -- rez.py [97ms]
+2026-07-31 13:20:38.893 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [89ms]
+2026-07-31 13:20:38.995 [info] > git ls-files --stage -- rez.py [86ms]
+2026-07-31 13:20:39.095 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [87ms]
+2026-07-31 13:20:39.195 [info] > git ls-files --stage -- rez.py [84ms]
+2026-07-31 13:20:39.293 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [86ms]
+2026-07-31 13:20:49.299 [info] > git ls-files --stage -- rez.py [92ms]
+2026-07-31 13:20:49.402 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [91ms]
+2026-07-31 13:21:40.329 [info] > git ls-files --stage -- rez.py [93ms]
+2026-07-31 13:21:40.429 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [88ms]
+2026-07-31 13:25:22.967 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [134ms]
+2026-07-31 13:25:22.967 [info] fatal: bad revision 'refs/heads/main'
+2026-07-31 13:25:22.968 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2026-07-31 13:26:28.467 [info] > git check-ignore -v -z --stdin [97ms]
+2026-07-31 13:26:28.610 [info] > git show --textconv :rez.py [123ms]
+2026-07-31 13:26:28.633 [info] > git show --textconv HEAD:rez.py [124ms]
+2026-07-31 13:26:28.634 [warning] [GitFileSystemProvider][readFile] File not found - git:/e%3A/Nouveau%20dossier%20%282%29/rez.py.git?%7B%22path%22%3A%22e%3A%5C%5CNouveau%20dossier%20%282%29%5C%5Crez.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-07-31 13:26:28.656 [info] > git ls-files --stage -- rez.py [123ms]
+2026-07-31 13:26:28.681 [info] > git ls-tree -l HEAD -- rez.py [114ms]
+2026-07-31 13:26:28.682 [info] fatal: Not a valid object name HEAD
+2026-07-31 13:26:28.683 [warning] [GitFileSystemProvider][stat] File not found - git:/e%3A/Nouveau%20dossier%20%282%29/rez.py.git?%7B%22path%22%3A%22e%3A%5C%5CNouveau%20dossier%20%282%29%5C%5Crez.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-07-31 13:26:28.772 [info] > git cat-file -s f0fd06d944ef919ffffe1b1f54bc1b9751580475 [101ms]
